@@ -12,6 +12,7 @@
    ">
 	
 	<context:component-scan base-package="net.zhursin.onlineshopping.controller"/>
+	<context:component-scan base-package="net.zhursin.shoppingbackend.daoimpl"/>
 
    	<bean id="viewResolver"
    		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
